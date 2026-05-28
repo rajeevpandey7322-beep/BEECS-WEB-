@@ -429,26 +429,150 @@ footer{
         Join BEECS and become a part of our mission to protect the environment,
         conserve biodiversity, promote sustainable living, and create awareness
         among future generations.
-
-         <form>
-
-        <input type="text" placeholder="Full Name" required>
-
-        <input type="email" placeholder="Email Address" required>
-
-        <input type="tel" placeholder="Mobile Number" required>
-
-        <input type="text" placeholder="Village / City" required>
-
-        <textarea placeholder="Why do you want to join BEECS?" rows="4"></textarea>
-
-        <button type="submit">Apply for Membership</button>
-
-        <background colour:#2e7d32 "rows="4"></background>
-
-    </form>
-
     </p>
+
+    <p><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        /* Modern CSS Reset & Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .form-container h2 {
+            margin-bottom: 24px;
+            color: #333333;
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555555;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            background-color: #f9f9f9;
+        }
+
+        /* Focus states for better UX */
+        .form-group input:focus, 
+        .form-group textarea:focus {
+            border-color: #4a90e2;
+            background-color: #ffffff;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #357abd;
+        }
+
+        /* Responsive tweak for smaller screens */
+        @media (max-width: 480px) {
+            .form-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Application Form</h2>
+        <form action="#" method="POST">
+            
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">E-mail ID</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </div>
+
+            <!-- Locality Address Field -->
+            <div class="form-group">
+                <label for="address">Locality Address</label>
+                <textarea id="address" name="address" placeholder="Street, Locality, City, Area Code" rows="2" required></textarea>
+            </div>
+
+            <!-- Statement of Interest Field -->
+            <div class="form-group">
+                <label for="interest">Why are you interested to join?</label>
+                <textarea id="interest" name="interest" placeholder="Tell us a bit about your motivation..." rows="4" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Application</button>
+
+        </form>
+    </div>
+
+</body>
+</html></p>
 
 
 </section>
@@ -475,8 +599,6 @@ footer{
     <p><strong>Address:</strong> Village Babhanauli, [Siwan], [Bihar]</p>
 
     <p><strong>Email:</strong> beecs.in@gmail.com</p>
-
-    <p><strong>Phone:</strong> +91 7004175692</p>
 
 </section>
  <section class="cta">
